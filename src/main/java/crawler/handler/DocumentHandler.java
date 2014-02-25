@@ -21,8 +21,7 @@ public class DocumentHandler {
 		try {
 			documentDAO.saveDocument(document);
 		} catch(Exception e) { 
-			System.out.println("Error add!!!");
-		//	e.printStackTrace();
+			e.printStackTrace();
 		}
 		count++;
 		System.out.println("count : " + count);
@@ -32,8 +31,7 @@ public class DocumentHandler {
 		try {
 			return documentDAO.checkDupl(url);
 		} catch(Exception e) {
-			System.out.println("Error check!!!");
-		//	e.printStackTrace();
+			e.printStackTrace();
 		}
 		return false;
 	}
