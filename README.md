@@ -12,16 +12,16 @@ crawler
 
 [4,5, если хочется пересобрать проект]
 4. Устанавливаем автоматический сборщик проектов maven:
-sudo apt-get install maven3
+	sudo apt-get install maven3
 
 5. Пересобираем роботов:
-mvn clean install
+	mvn clean install
 
 6. Запускаем роботов:
-Java -jar target/crawler-0.0.1.jar
+	java -jar target/crawler-0.0.1.jar
 
 7. Ставим утилиту curl
-sudo apt-get install curl
+	sudo apt-get install curl
 
 
 
