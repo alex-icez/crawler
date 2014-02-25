@@ -7,7 +7,7 @@ crawler
 2. Устанавливаем Java(можно так же 6-ую): 
 	sudo apt-get install openjdk-7-jdk
 3. Запускаем ElasticSearch
-	./elastic search-0.90.5/bin/elastic search
+	./elasticsearch-0.90.5/bin/elasticsearch
 и ждем пару-минут.
 
 [4,5, если хочется пересобрать проект]
