@@ -3,7 +3,7 @@ import sys
 import json
 
 HOST = 'localhost'
-PORT = '9201'
+PORT = '9200'
 INDEX = 'habr'
 TYPE = 'document'
 INDEX_URL = 'http://' + HOST + ':' + PORT + '/' + INDEX + '/'
