@@ -15,9 +15,10 @@ crawler
 	mvn clean install
 7. Ставим утилиту curl для запросов:
 	sudo apt-get install curl
-8. Запускаем роботов:
+7. Выполняем инциализацию индекса и типа в эластике:
+	python init.py
+9. Запускаем роботов:
 	java -jar target/crawler-0.0.1.jar
-
 
 Пункты 5-6 можно пропустить.
 
