@@ -3,7 +3,7 @@ crawler
 
 
 1. Клонируем репозиторий: 
-	git clone https://github.com/Alex-ice/crawler
+	git clone https://github.com/alex-ice/crawler
 2. Устанавливаем Java(можно так же 6-ую): 
 	sudo apt-get install openjdk-7-jdk
 3. Запускаем ElasticSearch
