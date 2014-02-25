@@ -10,7 +10,7 @@ crawler
 3. Запускаем ElasticSearch и ждем пару-минут:
 	./elasticsearch-0.90.5/bin/elasticsearch
 4. Устанавливаем автоматический сборщик проектов maven:
-	sudo apt-get install maven3
+	sudo apt-get install maven2
 5. Пересобираем роботов:
 	mvn clean install
 6. Запускаем роботов:
