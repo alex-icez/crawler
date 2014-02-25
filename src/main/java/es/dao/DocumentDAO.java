@@ -46,7 +46,7 @@ public class DocumentDAO {
 		client.prepareDelete(INDEX, TYPE, uuid).execute().actionGet();
 	}
 	
-	public void removeEvent(Document document)
+	public void removeDocument(Document document)
 	{
 		this.removeDocument(document.getUuid());
 	}
