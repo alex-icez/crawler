@@ -1,7 +1,7 @@
 crawler
 =======
 
-0. Устанавливаем git
+0. Устанавливаем git:
 	sudo apt-get install git
 1. Клонируем репозиторий: 
 	git clone https://github.com/alex-ice/crawler
