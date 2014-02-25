@@ -15,7 +15,7 @@ crawler
 	mvn clean install
 6. Запускаем роботов:
 	java -jar target/crawler-0.0.1.jar
-7. Ставим утилиту curl
+7. Ставим утилиту curl:
 	sudo apt-get install curl
 
 Пункты 4-5 можно пропустить.
